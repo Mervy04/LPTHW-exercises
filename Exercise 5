@@ -1,0 +1,21 @@
+# Format strings are strings that have variables embedded in them...
+
+# to embed variables in a string you use "f" in front of the string then a special {Variable in here} in the string.
+
+my_name = 'Merveille C. Mukete'
+my_age = 16 # as of right now.
+my_height = 74 # inches
+my_weight = 178 # pounds(lbs)
+my_eyes = "brown"
+my_teeth = "white"
+my_hair = "Black"
+
+print(f"Lets talk about {my_name}.")
+print(f"He's {my_height} inches tall.")
+print(f"He's {my_weight} pounds heavy.")
+print("Actually thats not too heavy.")
+print(f"He's got {my_eyes} eyes and {my_hair} hair.")
+print(f" His teeth are usually {my_teeth} depending on the coffee.")
+
+total = my_age + my_height + my_weight
+print(f"If I add {my_age}, {my_height}, and {my_weight} I am going to get {total}.")
