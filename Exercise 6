@@ -1,0 +1,24 @@
+types_of_people = 10 # number 10 assigned to variable types_of_people
+x = f"There are {types_of_people} types of people." # There are.... is assigned to variable x
+
+binary = "binary" #binary is assigned to variable binary
+do_not = "don't" # don't is assigned to variable do_not
+y = f"Those who know {binary} and those who {do_not}." #Those who know "Variable 'binary'" and those who "variable 'do_not' " is assigned to variable y
+
+
+print(x)
+print(y)
+
+print(f"I said: {x}")
+print(f"I also said: '{y}'")
+
+hilarious = False #Boolean "False" is assigned to variable hilarious
+joke_evaluation = "Isn't that joke so funny?! {}" #The string is assigned to the variable "Joke_evaluation"
+Hilarious = True #Boolean "True" is assigned to variable Hilarious.
+
+print(joke_evaluation.format(Hilarious)) #prints variables joke_evaluation and variable Hilarious.
+
+w = "This is the left side of..."
+e = "a string with a right side."
+
+print(w + e)
