@@ -1,0 +1,19 @@
+from sys import argv
+
+
+
+script, first, second, third = argv
+#assigns all arguments to the 4 variables.
+
+# to run argv you use the code - python3.6 ex13.py "first variable" "2nd var" and "3rd var" and so on....
+
+#for example ""python3 ex13.py Avocado Fruits Drinks"
+#it prints:
+##Your first variable is: Avocado
+#Your second variable is: Fruits
+#Your third variable is: Drinks
+
+print("The script is called:", script)
+print("Your first variable is:", first)
+print("Your second variable is:", second)
+print("Your third variable is:", third)
