@@ -1,0 +1,24 @@
+import datetime
+
+def subtract(x, y):
+    return x - y
+x = datetime.datetime.now()
+
+y = x.year
+m = x.month
+d = x.day
+
+year = int(input("What year were you born? "))
+month = int(input("What month were you born? "))
+day = int(input("What day were you born? "))
+
+from datetime import datetime
+from datetime import date
+import datetime as dt #working with arbitrary dates.
+diff = dt.datetime(y, month, day) - dt.datetime.now() #difference between now and my next birthday.
+print(diff.days)
+age = dt.datetime.now() - dt.datetime(year, month, day) #Difference between todays date and my birthday.
+print(age.days)
+
+
+
