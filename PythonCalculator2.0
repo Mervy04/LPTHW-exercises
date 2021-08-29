@@ -1,0 +1,51 @@
+# My own version of a calculator
+
+def add(x, y): # creates the addition function to call in the loop below
+    return x + y
+
+def subtract(x, y): # creates the subtraction function to call in the loop below
+    return x - y
+
+def divide(x, y): # creates the division function to call in the loop below
+    return x / y
+    
+def multiply(x, y): # creates the multiplication function to call in the loop below
+    return x * y
+
+
+print("Choose Operation/Function")
+print("1. Addition")
+print("2. Subtraction")
+print("3 Division")
+print("4 Multiplication")
+
+
+while True: # Creating a loop that doesn't stop until an action is fully completed or a condition is satisfied.
+
+    print("Welcome to Merveille's Calculator")
+
+    calculator = input("Choose Operation: 1/2/3/4 ")
+
+    if calculator in ('1', '2', '3', '4'):
+            num1 = int(input("What is your first number? "))
+            num2 = int(input("What is your second number? "))
+
+            if calculator == '1':
+                print(num1, '+', num2, "=", add(num1, num2))
+
+            elif calculator == '2':
+                print(num1, "-", num2, '=', subtract(num1, num2))
+
+            elif calculator == '3':
+                print(num1, "/", num2, '=', divide(num1, num2))
+
+            elif calculator == '4':
+                print(num1, "*", num2, '=', multiply(num1, num2))
+        
+            break # ends the current loop at the next statement which is the "else" statement
+    else: # used when a condition is false so this line is ran
+        print("invalid operation")
+
+    
+
+    
