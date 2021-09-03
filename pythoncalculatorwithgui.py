@@ -70,7 +70,7 @@ def button_multiply():
     return
 
 #Define buttons
-button1 = Button(root, text=1, padx=40, pady=20, command=lambda:button_click(1)) # you cant pass parameters with buttons wideaway, so we use a lambda (command=lambda....)
+button1 = Button(root, text=1, padx=40, pady=20, command=lambda:button_click(1)) # you cant pass parameters with buttons right away, so we use a lambda (command=lambda....)
 button2 = Button(root, text=2, padx=40, pady=20, command=lambda:button_click(2))
 button3 = Button(root, text=3, padx=40, pady=20, command=lambda:button_click(3))
 button4 = Button(root, text=4, padx=40, pady=20, command=lambda:button_click(4))
